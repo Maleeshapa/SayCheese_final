@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/SayCheese_final/static/css/main.b64396ef.css",
+    "main.js": "/SayCheese_final/static/js/main.931298e2.js",
+    "static/js/453.6fbcded7.chunk.js": "/SayCheese_final/static/js/453.6fbcded7.chunk.js",
+    "static/media/IMG-20240409-WA0007.jpg": "/SayCheese_final/static/media/IMG-20240409-WA0007.00af9541c271c9839bd0.jpg",
+    "static/media/Login.png": "/SayCheese_final/static/media/Login.879d47516e864795f3ed.png",
+    "static/media/About 4.png": "/SayCheese_final/static/media/About 4.599ac703a3c2f17c3c6b.png",
+    "static/media/About.jpg": "/SayCheese_final/static/media/About.9367df45a69fde4ec035.jpg",
+    "static/media/Booking.jpg": "/SayCheese_final/static/media/Booking.9367df45a69fde4ec035.jpg",
+    "static/media/Category.jpg": "/SayCheese_final/static/media/Category.5a12563040af79d6e65a.jpg",
+    "static/media/Contact.jpg": "/SayCheese_final/static/media/Contact.5a12563040af79d6e65a.jpg",
+    "static/media/Page.png": "/SayCheese_final/static/media/Page.c83b93c893cbb932fd6f.png",
+    "static/media/IMG-20240409-WA0004.jpg": "/SayCheese_final/static/media/IMG-20240409-WA0004.5bff0f6d7ea9b12e6258.jpg",
+    "static/media/IMG-20240402-WA0008.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0008.98d5494d41fdee29ffb7.jpg",
+    "static/media/IMG-20240402-WA0007.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0007.6f12da5e60867dea4ba0.jpg",
+    "static/media/IMG-20240402-WA0003.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0003.29176410f68f5d13029f.jpg",
+    "static/media/IMG-20240402-WA0005.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0005.34496fac1209937c4dae.jpg",
+    "static/media/IMG-20240402-WA0006.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0006.9c878f45f7784110adc2.jpg",
+    "static/media/IMG-20240402-WA0012.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0012.f33ba1dd32c66ad4b44a.jpg",
+    "static/media/IMG-20240409-WA0002.jpg": "/SayCheese_final/static/media/IMG-20240409-WA0002.06ab48997954b376b30a.jpg",
+    "static/media/About 2.jpg": "/SayCheese_final/static/media/About 2.051cd1c5f8dabdc852ee.jpg",
+    "static/media/IMG-20240409-WA0003.jpg": "/SayCheese_final/static/media/IMG-20240409-WA0003.fcd31385f90af1e68bd6.jpg",
+    "static/media/IMG-20240402-WA0011.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0011.6e3472a537951e2b932e.jpg",
+    "static/media/IMG-20240402-WA0004.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0004.3c546d35062d60ac517f.jpg",
+    "static/media/IMG-20240402-WA0013.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0013.6a46eeaa3ac9fe3e5261.jpg",
+    "static/media/IMG-20240402-WA0010.jpg": "/SayCheese_final/static/media/IMG-20240402-WA0010.b50785123d46bea7a632.jpg",
+    "static/media/Home.jpg": "/SayCheese_final/static/media/Home.1bdd9a40414d72f34cc7.jpg",
+    "index.html": "/SayCheese_final/index.html",
+    "main.b64396ef.css.map": "/SayCheese_final/static/css/main.b64396ef.css.map",
+    "main.931298e2.js.map": "/SayCheese_final/static/js/main.931298e2.js.map",
+    "453.6fbcded7.chunk.js.map": "/SayCheese_final/static/js/453.6fbcded7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b64396ef.css",
+    "static/js/main.931298e2.js"
+  ]
+}
