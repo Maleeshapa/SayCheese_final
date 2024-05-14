@@ -1,0 +1,75 @@
+/* Gallery.css */
+
+.gallery-img {
+    width: auto;
+    height: 400px;
+}
+
+
+.card {
+    margin: 0 auto 30px;
+}
+
+/* Add this CSS to center the buttons */
+.centered-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  /* Add margin between buttons */
+  .centered-buttons button {
+    margin-right: 1rem;
+  }
+  
+
+.centered-button :hover {
+    background-color: rgb(19, 19, 19);
+    color: rgb(70, 141, 221);
+    cursor: pointer;
+}
+
+@media(max-width:1100px){
+
+  .card {
+    width: auto;
+    height: auto;
+}
+
+.gallery-img {
+  width: auto;
+  height: 400px;
+}
+
+}
+
+@media(max-width:991px){
+
+.card {
+    margin-top: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.gallery-img {
+  width: auto;
+  height: auto;
+}
+
+}
+
+
+@media(max-width:450px){
+
+  .card {
+      margin-top: 10px;
+      width: 250px;
+      height: auto;
+  }
+  
+  .gallery-img {
+    width: auto;
+    height: 300px;
+  }
+  
+  }
