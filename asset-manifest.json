@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SayCheese_final/static/css/main.f56905f5.css",
-    "main.js": "/SayCheese_final/static/js/main.60287046.js",
+    "main.js": "/SayCheese_final/static/js/main.1bfaf022.js",
     "static/js/453.6fbcded7.chunk.js": "/SayCheese_final/static/js/453.6fbcded7.chunk.js",
     "static/media/Login.png": "/SayCheese_final/static/media/Login.879d47516e864795f3ed.png",
     "static/media/sky.png": "/SayCheese_final/static/media/sky.0f87e9af7c7ec1785874.png",
@@ -13,11 +13,11 @@
     "static/media/Home.jpg": "/SayCheese_final/static/media/Home.1bdd9a40414d72f34cc7.jpg",
     "index.html": "/SayCheese_final/index.html",
     "main.f56905f5.css.map": "/SayCheese_final/static/css/main.f56905f5.css.map",
-    "main.60287046.js.map": "/SayCheese_final/static/js/main.60287046.js.map",
+    "main.1bfaf022.js.map": "/SayCheese_final/static/js/main.1bfaf022.js.map",
     "453.6fbcded7.chunk.js.map": "/SayCheese_final/static/js/453.6fbcded7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f56905f5.css",
-    "static/js/main.60287046.js"
+    "static/js/main.1bfaf022.js"
   ]
 }
