@@ -26,7 +26,7 @@ function App() {
     <BrowserRouter>
       <CartProvider> {/* Wrap the entire application with CartProvider */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/SayCheese_final/" element={<Home />} />
           <Route path="/Category" element={<Category />} />
           <Route path="/Booking" element={<Booking />} />
           <Route path="/About" element={<About />} />
