@@ -1,40 +1,42 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import NavbarCart from './NavbarCart';
-import { CartContext } from '../../Context/CartContext'; // Import CartContext
+import { CartContext } from '../../Context/CartContext';
 import './Gallery.css';
 
 const Gallery = () => {
     const [products, setProducts] = useState([]);
-    const { addToCart, cartItems, removeFromCart } = useContext(CartContext); // Use CartContext
-    const [addedItemCount, setAddedItemCount] = useState(0); // State to store the count of added items
+    const { addToCart, cartItems, removeFromCart } = useContext(CartContext);
+   
+    const [setAddedItemCount] = useState(0);
 
-    useEffect(() => {
-        fetchData();
-        updateAddedItemCount(); // Update the count of added items on mount
-    }, [cartItems]); // Watch for changes in cartItems to update the count
 
-    const fetchData = () => {
+    const fetchData = useCallback(() => {
         axios.get('http://localhost:8081/product')
             .then(res => setProducts(res.data))
             .catch(err => console.log(err));
-    };
+    }, []);
 
-    const handleAddToCart = (product) => {
-        addToCart(product); // Call addToCart function from CartContext
-        updateAddedItemCount(); // Update the count of added items
-    };
-
-    const handleRemoveFromCart = (productId) => {
-        removeFromCart(productId); // Call removeFromCart function from CartContext
-        updateAddedItemCount(); // Update the count of added items
-    };
-
-    const updateAddedItemCount = () => {
+    const updateAddedItemCount = useCallback(() => {
         const count = Object.keys(cartItems).reduce((acc, itemId) => {
             return acc + cartItems[itemId].quantity;
         }, 0);
         setAddedItemCount(count);
+    }, [cartItems]);
+
+    useEffect(() => {
+        fetchData();
+        updateAddedItemCount();
+    }, [cartItems, fetchData, updateAddedItemCount]);
+
+    const handleAddToCart = (product) => {
+        addToCart(product);
+        updateAddedItemCount();
+    };
+
+    const handleRemoveFromCart = (productId) => {
+        removeFromCart(productId);
+        updateAddedItemCount();
     };
 
     return (
@@ -54,9 +56,9 @@ const Gallery = () => {
                                 <div className="card-body">
                                     <p className="card-text">Price : Rs.{product.Price}</p>
                                     <div className="centered-buttons">
-                                      <button type="button" className="btn btn-danger remove-button" onClick={() => handleRemoveFromCart(product.Id)}>-</button>
-                                      <span className="added-item-count me-3 mt-2">{cartItems[product.Id] ? cartItems[product.Id].quantity : 0}</span> {' '}
-                                      <button type="button" className="btn btn-primary" onClick={() => handleAddToCart(product)}>+</button>
+                                        <button type="button" className="btn btn-danger remove-button" onClick={() => handleRemoveFromCart(product.Id)}>-</button>
+                                        <span className="added-item-count me-3 mt-2">{cartItems[product.Id] ? cartItems[product.Id].quantity : 0}</span> {' '}
+                                        <button type="button" className="btn btn-primary" onClick={() => handleAddToCart(product)}>+</button>
                                     </div>
                                 </div>
                             </div>
